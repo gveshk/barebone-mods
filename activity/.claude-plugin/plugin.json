@@ -1,0 +1,17 @@
+{
+  "name": "activity",
+  "version": "0.1.0",
+  "description": "A live crew panel: every agent, its model, effort, tokens and estimated cost, with a friendly pixel crab.",
+  "author": { "name": "Barebone Agents", "url": "https://github.com/gveshk" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "reportTools": {
+      "type": "boolean",
+      "title": "Register the flow and step tools",
+      "description": "Lets skills report a plan and per-agent progress. Turn off to keep the model's tool list unchanged.",
+      "required": false,
+      "default": true
+    }
+  }
+}

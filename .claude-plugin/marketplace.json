@@ -1,0 +1,21 @@
+{
+  "name": "barebone-mods",
+  "owner": { "name": "Barebone Agents", "url": "https://github.com/gveshk" },
+  "metadata": { "description": "Claude Code mods from Barebone Agents." },
+  "plugins": [
+    {
+      "name": "activity",
+      "source": "./activity",
+      "description": "A live crew panel: every agent, its model, effort, tokens and estimated cost, with a friendly pixel crab.",
+      "version": "0.1.0",
+      "category": "mod"
+    },
+    {
+      "name": "token-weather",
+      "source": "./token-weather",
+      "description": "A live forecast of the context window, drawn above the prompt.",
+      "version": "0.1.0",
+      "category": "mod"
+    }
+  ]
+}
